@@ -1,0 +1,2 @@
+class BoatJobsController < ApplicationController
+end
