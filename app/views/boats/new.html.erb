@@ -1,0 +1,17 @@
+<h1>Make A Boat</h1>
+
+<%= form_for @boat do |form| %>
+  <%= form.label :name %>:
+  <br>
+  <%= form.text_field :name %>
+  <br>
+  <%= form.label :Containers %>:
+  <br>
+  <%= form.text_field :amtcontainersshipped %>
+  <br>
+  <%= form.label :location %>:
+  <br>
+  <%= form.text_field :location %>
+  <br>
+  <%= form.submit %>
+<% end %>
